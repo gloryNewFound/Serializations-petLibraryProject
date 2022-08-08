@@ -1,0 +1,1 @@
+[{"companyName":"Phosagro","specialization":"Fertilizers","quantityOfEquipment":1000},{"companyName":"Severstal","specialization":"Metals","quantityOfEquipment":900},{"companyName":"GazPromNeft","specialization":"Oil and gas","quantityOfEquipment":500}]
