@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+    <customer>
+        <companyName>Phosagro</companyName>
+        <quantityOfEquipment>1000</quantityOfEquipment>
+        <specialization>Fertilizers</specialization>
+    </customer>
+    <customer>
+        <companyName>Severstal</companyName>
+        <quantityOfEquipment>900</quantityOfEquipment>
+        <specialization>Metals</specialization>
+    </customer>
+    <customer>
+        <companyName>GazPromNeft</companyName>
+        <quantityOfEquipment>500</quantityOfEquipment>
+        <specialization>Oil and gas</specialization>
+    </customer>
+</customers>

@@ -1,12 +1,16 @@
 package org.study;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+
+import javax.xml.bind.annotation.*;
 import java.io.*;
 
 public class Customer implements Serializable {
     private String companyName;
     private String specialization;
     private int quantityOfEquipment;
-
 
     public Customer(String companyName, String specialization, int quantityOfEquipment) {
         this.companyName = companyName;
@@ -50,3 +54,6 @@ public class Customer implements Serializable {
                 '}';
     }
 }
+
+
+
