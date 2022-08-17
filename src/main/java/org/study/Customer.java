@@ -1,11 +1,6 @@
 package org.study;
 
-import com.fasterxml.jackson.annotation.JsonAutoDetect;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
-
-import javax.xml.bind.annotation.*;
-import java.io.*;
+import java.io.Serializable;
 
 public class Customer implements Serializable {
     private String companyName;

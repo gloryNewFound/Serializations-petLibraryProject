@@ -1,16 +1,8 @@
 package org.study;
 
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import org.study.serializers.CustomersDeserializer;
 import org.study.serializers.CustomersSerializer;
 
-
-import javax.xml.bind.*;
-import javax.xml.namespace.QName;
-import javax.xml.stream.FactoryConfigurationError;
-import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
 
