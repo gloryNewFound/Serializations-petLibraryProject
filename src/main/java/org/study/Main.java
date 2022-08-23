@@ -1,5 +1,6 @@
 package org.study;
 
+import org.study.serializers.CustomersDeserializer;
 import org.study.serializers.CustomersSerializer;
 
 import java.io.IOException;
@@ -28,7 +29,10 @@ public class Main {
         //    System.out.println(customer.toString());
         //}
 
-        CustomersSerializer.serializeToXML(customers, XML_FILE_NAME);
+        //CustomersSerializer.serializeToXML(customers, XML_FILE_NAME);
+        for (Customer customer: CustomersDeserializer.deserializeFromXML(XML_FILE_NAME)) {
+            System.out.println(customer.toString());
+        }
 
     }
 }
